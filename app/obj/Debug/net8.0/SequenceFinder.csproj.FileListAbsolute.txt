@@ -1,0 +1,15 @@
+/Users/ginohome/sourcecode/codechallenge/app/bin/Debug/net8.0/SequenceFinder
+/Users/ginohome/sourcecode/codechallenge/app/bin/Debug/net8.0/SequenceFinder.deps.json
+/Users/ginohome/sourcecode/codechallenge/app/bin/Debug/net8.0/SequenceFinder.runtimeconfig.json
+/Users/ginohome/sourcecode/codechallenge/app/bin/Debug/net8.0/SequenceFinder.dll
+/Users/ginohome/sourcecode/codechallenge/app/bin/Debug/net8.0/SequenceFinder.pdb
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.AssemblyInfoInputs.cache
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.AssemblyInfo.cs
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.csproj.CoreCompileInputs.cache
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.sourcelink.json
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.dll
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/refint/SequenceFinder.dll
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.pdb
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/SequenceFinder.genruntimeconfig.cache
+/Users/ginohome/sourcecode/codechallenge/app/obj/Debug/net8.0/ref/SequenceFinder.dll

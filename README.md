@@ -81,7 +81,7 @@ l: 5
 4. For each index i..0 : i = i - Max(1, #tseq)
    - var tseq = []
    - tseq = subSequence(nums, i) {
-       - if i-1 < 0 return []
+       - if i-1 < 0 return nums[i]
        - if nums[i-1] < nums[i] return subSequence(nums, i-1) ⁀ nums[i]
        - else return nums[i]
    }
