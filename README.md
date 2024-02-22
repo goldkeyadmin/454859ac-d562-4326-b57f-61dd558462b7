@@ -11,6 +11,13 @@
 cd to the `app` folder;
 run `dotnet run "1 2 3"`
 
+## Running the program in Docker
+
+`build.sh` will build a release version of the app and create the docker image. Execute the script in the terminal to build the application.
+
+Once build execute the docker container as follows.
+`docker run sequence-finder "9 1 2 3 4 5 1"`
+
 ## Testing
 
 run `dotnet test` in the root directory
@@ -30,7 +37,7 @@ Develop a function that takes one string input of any number of integers separat
 - If more than one sequence exists output the earliest one
 - Input is a space delimited string
 
-## Analysis
+## Formal Analysis
 
 ```pseudocode
 //SequenceFinder

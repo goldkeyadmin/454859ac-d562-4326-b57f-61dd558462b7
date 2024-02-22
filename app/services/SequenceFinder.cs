@@ -1,7 +1,15 @@
 namespace SequenceFinder.Services
 {
+    /// <summary>
+    /// Finder class to find subsequences in strings and arrays
+    /// </summary>
     public class Finder
     {
+        /// <summary>
+        /// Find largest increasing subsequence in the passed array
+        /// </summary>
+        /// <param name="numbers">The array of numbers to check</param>
+        /// <returns>An array containing the largest subsequence found</returns>
         public int[] FindSequenceInArray(int[] numbers)
         {
             int length = 0;
@@ -26,6 +34,11 @@ namespace SequenceFinder.Services
             return sequence;
         }
 
+        /// <summary>
+        /// Find the largest increasing subsequence 
+        /// </summary>
+        /// <param name="numberString">A space delimited string of numbers</param>
+        /// <returns>A string containing the sequence found</returns>
         public string FindSequenceInString(string numberString)
         {
             if (String.IsNullOrEmpty(numberString))

@@ -1,11 +1,16 @@
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 namespace Tests
 {
     using SequenceFinder.Services;
 
+    /// <summary>
+    /// Tests of the Sequence Finder Class
+    /// </summary>
     [TestClass]
     public class SequenceFinderTests
     {
         [TestClass]
+
         public class FindSequenceInArray
         {
             [TestClass]
@@ -141,3 +146,4 @@ namespace Tests
         }
     }
 }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
