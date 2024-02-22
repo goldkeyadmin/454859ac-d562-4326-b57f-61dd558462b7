@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ginohome/sourcecode/codechallenge/tests/tests.csproj": {}
+  },
+  "projects": {
+    "/Users/ginohome/sourcecode/codechallenge/app/SequenceFinder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ginohome/sourcecode/codechallenge/app/SequenceFinder.csproj",
+        "projectName": "SequenceFinder",
+        "projectPath": "/Users/ginohome/sourcecode/codechallenge/app/SequenceFinder.csproj",
+        "packagesPath": "/Users/ginohome/.nuget/packages/",
+        "outputPath": "/Users/ginohome/sourcecode/codechallenge/app/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ginohome/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ginohome/sourcecode/codechallenge/tests/tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ginohome/sourcecode/codechallenge/tests/tests.csproj",
+        "projectName": "tests",
+        "projectPath": "/Users/ginohome/sourcecode/codechallenge/tests/tests.csproj",
+        "packagesPath": "/Users/ginohome/.nuget/packages/",
+        "outputPath": "/Users/ginohome/sourcecode/codechallenge/tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ginohome/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ginohome/sourcecode/codechallenge/app/SequenceFinder.csproj": {
+                "projectPath": "/Users/ginohome/sourcecode/codechallenge/app/SequenceFinder.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

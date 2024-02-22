@@ -1,5 +1,29 @@
 # Longest increasing subsequence
 
+## Notes
+
+- This was developed in VSCode on MAC
+- The solution creates a class with two methods. FindSequenceInArray finds the longest sequence in an array of numbers. FindSequenceInString finds the longest sequence in a string. The latter calls the former, but prepares the data before hand.
+- See below for detailed analysis of how the sequence finder class works, including assumptions and constraints.
+
+## Running the program from CLI
+
+cd to the `app` folder;
+run `dotnet run "1 2 3"`
+
+## Running the program in Docker
+
+`build.sh` will build a release version of the app and create the docker image. Execute the script in the terminal to build the application. Remember to chmod 700 the file before running.
+
+Once build execute the docker container as follows.
+`docker run sequence-finder "9 1 2 3 4 5 1"`
+
+## Testing
+
+run `dotnet test` in the root directory
+
+## Detailed Analysis
+
 Develop a function that takes one string input of any number of integers separated by single whitespace. The function then outputs the longest increasing subsequence (increased by any number) present in that sequence. If more than 1 sequence exists with the longest length, output the earliest one. You may develop supporting functions as many as you find reasonable.
 
 ## Assumptions
@@ -13,7 +37,7 @@ Develop a function that takes one string input of any number of integers separat
 - If more than one sequence exists output the earliest one
 - Input is a space delimited string
 
-## Analysis
+## Formal Analysis
 
 ```pseudocode
 //SequenceFinder
@@ -81,7 +105,7 @@ l: 5
 4. For each index i..0 : i = i - Max(1, #tseq)
    - var tseq = []
    - tseq = subSequence(nums, i) {
-       - if i-1 < 0 return []
+       - if i-1 < 0 return nums[i]
        - if nums[i-1] < nums[i] return subSequence(nums, i-1) ⁀ nums[i]
        - else return nums[i]
    }
