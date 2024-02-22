@@ -13,7 +13,7 @@ run `dotnet run "1 2 3"`
 
 ## Running the program in Docker
 
-`build.sh` will build a release version of the app and create the docker image. Execute the script in the terminal to build the application.
+`build.sh` will build a release version of the app and create the docker image. Execute the script in the terminal to build the application. Remember to chmod 700 the file before running.
 
 Once build execute the docker container as follows.
 `docker run sequence-finder "9 1 2 3 4 5 1"`

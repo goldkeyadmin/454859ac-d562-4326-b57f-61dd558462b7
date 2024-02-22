@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i/61qbsfx5afA7MIRcnDsc39N49UnT3xB80B2Mr++V/vKbrZj1eeGFV7i6j1VPRH8zo2G+7xPr0sriuPyzAKVg==",
+  "dgSpecHash": "BEEQgMEIGqmsHwwQSSqihZDoO2WnfMHFvDdLRGTuySR6uFO7pJ7cURj88bB8Np4eDFrzsevGe2fu2W5kNd9VLA==",
   "success": true,
   "projectFilePath": "/Users/ginohome/sourcecode/codechallenge/tests/tests.csproj",
   "expectedPackageFiles": [
     "/Users/ginohome/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/ginohome/.nuget/packages/coverlet.msbuild/6.0.1/coverlet.msbuild.6.0.1.nupkg.sha512",
     "/Users/ginohome/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/ginohome/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/Users/ginohome/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
