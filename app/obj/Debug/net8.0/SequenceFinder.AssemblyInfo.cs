@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SequenceFinder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+173ec91ee4399bd40c10c0501c9002d3077e9156")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18c8aa809f1dfc46eca4438186abf4a194b95a85")]
 [assembly: System.Reflection.AssemblyProductAttribute("SequenceFinder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SequenceFinder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
