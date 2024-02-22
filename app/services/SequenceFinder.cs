@@ -17,6 +17,7 @@ namespace SequenceFinder.Services
 
             if (numbers.Length == 0) return [];
 
+            // search for sequence using last member of sequence
             int index = numbers.Length - 1;
 
             do
@@ -24,9 +25,13 @@ namespace SequenceFinder.Services
                 int[] tempSequence = this.SubSequence(numbers, index);
                 if (tempSequence.Length >= length)
                 {
+                    //this is a longer, or earlier sequence, store that one
                     sequence = tempSequence;
                     length = tempSequence.Length;
                 }
+
+                // we can skip already considered indices, so this will
+                // run in O(N) complexity
                 index -= Math.Max(1, tempSequence.Length);
             }
             while (index >= 0);
@@ -52,6 +57,12 @@ namespace SequenceFinder.Services
             return string.Join(" ", sequence);
         }
 
+        /// <summary>
+        /// Recursive function to find an increasing subsequence
+        /// </summary>
+        /// <param name="numbers">The array of numbers</param>
+        /// <param name="i">The index to check</param>
+        /// <returns>The subsequence if found, otherwise just the number at the current index</returns>
         private int[] SubSequence(int[] numbers, int i)
         {
             if (i == 0)
