@@ -1,5 +1,22 @@
 # Longest increasing subsequence
 
+## Notes
+
+- This was developed in VSCode on MAC
+- The solution creates a class with two methods. FindSequenceInArray finds the longest sequence in an array of numbers. FindSequenceInString finds the longest sequence in a string. The latter calls the former, but prepares the data before hand.
+- See below for detailed analysis of how the sequence finder class works, including assumptions and constraints.
+
+## Running the program from CLI
+
+cd to the `app` folder;
+run `dotnet run "1 2 3"`
+
+## Testing
+
+run `dotnet test` in the root directory
+
+## Detailed Analysis
+
 Develop a function that takes one string input of any number of integers separated by single whitespace. The function then outputs the longest increasing subsequence (increased by any number) present in that sequence. If more than 1 sequence exists with the longest length, output the earliest one. You may develop supporting functions as many as you find reasonable.
 
 ## Assumptions

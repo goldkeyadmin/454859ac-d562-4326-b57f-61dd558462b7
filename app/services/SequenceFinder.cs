@@ -6,7 +6,7 @@ namespace SequenceFinder.Services
 {
   public class Finder
   {
-    public int[] findSequenceInArray(int[] numbers)
+    public int[] FindSequenceInArray(int[] numbers)
     {
       int length = 0;
       int[] sequence = [];
@@ -17,7 +17,7 @@ namespace SequenceFinder.Services
 
       do
       {
-        int[] tempSequence = this.subSequence(numbers, index);
+        int[] tempSequence = this.SubSequence(numbers, index);
         if (tempSequence.Length >= length)
         {
           sequence = tempSequence;
@@ -30,7 +30,20 @@ namespace SequenceFinder.Services
       return sequence;
     }
 
-    private int[] subSequence(int[] numbers, int i)
+    public string FindSequenceInString(string numberString)
+    {
+      if (String.IsNullOrEmpty(numberString))
+      {
+        return string.Empty;
+      }
+
+      int[] numbers = numberString.Split(" ").Select(s => int.Parse(s)).ToArray();
+      int[] sequence = this.FindSequenceInArray(numbers);
+
+      return string.Join(" ", sequence);
+    }
+
+    private int[] SubSequence(int[] numbers, int i)
     {
       if (i == 0)
       {
@@ -39,7 +52,7 @@ namespace SequenceFinder.Services
 
       if (numbers[i - 1] < numbers[i])
       {
-        return subSequence(numbers, i - 1).Concat([numbers[i]]).ToArray();
+        return SubSequence(numbers, i - 1).Concat([numbers[i]]).ToArray();
       }
       else
       {

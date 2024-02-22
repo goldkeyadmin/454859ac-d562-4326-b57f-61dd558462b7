@@ -1,4 +1,3 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using SequenceFinder.Services;
-
-new Finder().findSequenceInArray([6, 1, 5, 9, 2]);
+Console.WriteLine(new Finder().FindSequenceInString(args[0]));
