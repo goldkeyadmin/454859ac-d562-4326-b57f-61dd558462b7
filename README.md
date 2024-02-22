@@ -6,11 +6,6 @@
 - The solution creates a class with two methods. FindSequenceInArray finds the longest sequence in an array of numbers. FindSequenceInString finds the longest sequence in a string. The latter calls the former, but prepares the data before hand.
 - See below for detailed analysis of how the sequence finder class works, including assumptions and constraints.
 
-## Running the program from CLI
-
-cd to the `app` folder;
-run `dotnet run "1 2 3"`
-
 ## Running the program in Docker
 
 `build.sh` will build a release version of the app and create the docker image. Execute the script in the terminal to build the application. Remember to chmod 700 the file before running.
@@ -18,9 +13,15 @@ run `dotnet run "1 2 3"`
 Once build execute the docker container as follows.
 `docker run sequence-finder "9 1 2 3 4 5 1"`
 
+## Running the program from CLI
+
+cd to the `app` folder;
+run `dotnet run "1 2 3"`
+
 ## Testing
 
-run `dotnet test` in the root directory
+run `dotnet test` in the root directory.
+Note code coverage will be run automatically using coverlet.
 
 ## Detailed Analysis
 
